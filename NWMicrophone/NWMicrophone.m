@@ -48,8 +48,6 @@ static NWMicrophone *singleton;
         __weak typeof(self)weakSelf = self;
         [audioManager setInputBlock:^(float *newAudio, UInt32 numSamples, UInt32 numChannels, CMTime pts) {
             [weakSelf receivedAudioBuffers:newAudio numFrames:numSamples time:pts];
-            //NSLog(@"Received %d samples at %f: %.3f %.3f %.3f %.3f", numSamples, pts.value / (float)pts.timescale, newAudio[0], newAudio[1], newAudio[2], newAudio[3]);
-            // Now you're getting audio from the microphone every 20 milliseconds or so. How's that for easy?
             // Audio comes in interleaved, so,
             // if numChannels = 2, newAudio[0] is channel 1, newAudio[1] is channel 2, newAudio[2] is channel 1, etc.
         }];
@@ -62,6 +60,8 @@ static NWMicrophone *singleton;
 
 - (void)stop {
     [[Novocaine audioManager] pause];
+    CFRelease(format);
+    format = NULL;
 }
 
 - (OSStatus)receivedAudioBuffers:(float *)buffers numFrames:(UInt32)numFrames time:(CMTime)time {
@@ -77,14 +77,13 @@ static NWMicrophone *singleton;
         }
         
         size_t size = numFrames * sizeof(float);
-        float *blockData = (float*) malloc(size);
-        //NSLog(@"buffers: %d %d -- %d %d %d %d", buffers->mNumberBuffers, buffer->mDataByteSize, shorts[0], shorts[1], shorts[2], shorts[3]);
+        float *blockData = (float*) malloc(size); // blockBuffer takes ownership of this
         memcpy(blockData, buffers, size);
         CMBlockBufferRef blockBuffer;
         CMBlockBufferCreateWithMemoryBlock(kCFAllocatorDefault,
                                          blockData,
                                          size,
-                                         kCFAllocatorMalloc,
+                                         kCFAllocatorMalloc, // causes blockData to be free'd when done
                                          NULL, 0, size,
                                          0, &blockBuffer);
         
