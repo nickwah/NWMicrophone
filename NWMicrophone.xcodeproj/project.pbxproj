@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A4C5651BE4943100D954DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4C5641BE4943100D954DD /* main.m */; };
+		01A4C5681BE4943100D954DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4C5671BE4943100D954DD /* AppDelegate.m */; };
+		01A4C56B1BE4943100D954DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4C56A1BE4943100D954DD /* ViewController.m */; };
+		01A4C56E1BE4943100D954DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A4C56C1BE4943100D954DD /* Main.storyboard */; };
+		01A4C5701BE4943100D954DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A4C56F1BE4943100D954DD /* Assets.xcassets */; };
+		01A4C5731BE4943100D954DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A4C5711BE4943100D954DD /* LaunchScreen.storyboard */; };
+		01A4C57C1BE4945400D954DD /* NWMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4C57B1BE4945400D954DD /* NWMicrophone.m */; };
+		01A4C5831BE5AED300D954DD /* Novocaine.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A4C5821BE5AED300D954DD /* Novocaine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A4C5601BE4943100D954DD /* NWMicrophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWMicrophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A4C5641BE4943100D954DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01A4C5661BE4943100D954DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01A4C5671BE4943100D954DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01A4C5691BE4943100D954DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01A4C56A1BE4943100D954DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01A4C56D1BE4943100D954DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01A4C56F1BE4943100D954DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01A4C5721BE4943100D954DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01A4C5741BE4943100D954DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A4C57A1BE4945400D954DD /* NWMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWMicrophone.h; sourceTree = "<group>"; };
+		01A4C57B1BE4945400D954DD /* NWMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWMicrophone.m; sourceTree = "<group>"; };
+		01A4C5811BE5AED300D954DD /* Novocaine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Novocaine.h; sourceTree = "<group>"; };
+		01A4C5821BE5AED300D954DD /* Novocaine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Novocaine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01A4C55D1BE4943100D954DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A4C5571BE4943100D954DD = {
+			isa = PBXGroup;
+			children = (
+				01A4C5621BE4943100D954DD /* NWMicrophone */,
+				01A4C5611BE4943100D954DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01A4C5611BE4943100D954DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01A4C5601BE4943100D954DD /* NWMicrophone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01A4C5621BE4943100D954DD /* NWMicrophone */ = {
+			isa = PBXGroup;
+			children = (
+				01A4C5811BE5AED300D954DD /* Novocaine.h */,
+				01A4C5821BE5AED300D954DD /* Novocaine.m */,
+				01A4C5661BE4943100D954DD /* AppDelegate.h */,
+				01A4C5671BE4943100D954DD /* AppDelegate.m */,
+				01A4C5691BE4943100D954DD /* ViewController.h */,
+				01A4C56A1BE4943100D954DD /* ViewController.m */,
+				01A4C56C1BE4943100D954DD /* Main.storyboard */,
+				01A4C56F1BE4943100D954DD /* Assets.xcassets */,
+				01A4C5711BE4943100D954DD /* LaunchScreen.storyboard */,
+				01A4C5741BE4943100D954DD /* Info.plist */,
+				01A4C5631BE4943100D954DD /* Supporting Files */,
+				01A4C57A1BE4945400D954DD /* NWMicrophone.h */,
+				01A4C57B1BE4945400D954DD /* NWMicrophone.m */,
+			);
+			path = NWMicrophone;
+			sourceTree = "<group>";
+		};
+		01A4C5631BE4943100D954DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01A4C5641BE4943100D954DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01A4C55F1BE4943100D954DD /* NWMicrophone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01A4C5771BE4943100D954DD /* Build configuration list for PBXNativeTarget "NWMicrophone" */;
+			buildPhases = (
+				01A4C55C1BE4943100D954DD /* Sources */,
+				01A4C55D1BE4943100D954DD /* Frameworks */,
+				01A4C55E1BE4943100D954DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NWMicrophone;
+			productName = NWMicrophone;
+			productReference = 01A4C5601BE4943100D954DD /* NWMicrophone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01A4C5581BE4943100D954DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Nicholas White";
+				TargetAttributes = {
+					01A4C55F1BE4943100D954DD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 01A4C55B1BE4943100D954DD /* Build configuration list for PBXProject "NWMicrophone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01A4C5571BE4943100D954DD;
+			productRefGroup = 01A4C5611BE4943100D954DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01A4C55F1BE4943100D954DD /* NWMicrophone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01A4C55E1BE4943100D954DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A4C5731BE4943100D954DD /* LaunchScreen.storyboard in Resources */,
+				01A4C5701BE4943100D954DD /* Assets.xcassets in Resources */,
+				01A4C56E1BE4943100D954DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01A4C55C1BE4943100D954DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A4C56B1BE4943100D954DD /* ViewController.m in Sources */,
+				01A4C5681BE4943100D954DD /* AppDelegate.m in Sources */,
+				01A4C57C1BE4945400D954DD /* NWMicrophone.m in Sources */,
+				01A4C5651BE4943100D954DD /* main.m in Sources */,
+				01A4C5831BE5AED300D954DD /* Novocaine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01A4C56C1BE4943100D954DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A4C56D1BE4943100D954DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01A4C5711BE4943100D954DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01A4C5721BE4943100D954DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01A4C5751BE4943100D954DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01A4C5761BE4943100D954DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01A4C5781BE4943100D954DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NWMicrophone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickandjerry.NWMicrophone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01A4C5791BE4943100D954DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NWMicrophone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickandjerry.NWMicrophone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01A4C55B1BE4943100D954DD /* Build configuration list for PBXProject "NWMicrophone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A4C5751BE4943100D954DD /* Debug */,
+				01A4C5761BE4943100D954DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01A4C5771BE4943100D954DD /* Build configuration list for PBXNativeTarget "NWMicrophone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01A4C5781BE4943100D954DD /* Debug */,
+				01A4C5791BE4943100D954DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01A4C5581BE4943100D954DD /* Project object */;
+}
